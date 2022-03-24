@@ -1,0 +1,40 @@
+programa {
+	funcao inicio() {
+		caracter nome, estado_civil
+		inteiro idade, filhos, anos
+		real salario
+		
+		escreva("Insira o nome do funcionário: ")
+		leia(nome)
+		escreva("Insira a idade do funcionário: ")
+		leia(idade)
+		se(idade > 60){
+		    escreva("Apresente o plano de aposentadoria para o funcionario\n")
+		}senao{
+		    escreva("O funcionario não tem direito ao plano de aposentadoria\n")
+		}
+		escreva("Insira o estado civil do funcionario: ")
+		leia(estado_civil)
+		escreva("Insira o número de filhos do funcionário: ")
+		leia(filhos)
+		se(filhos == 0){
+		    escreva("O funcionário não tem direito ao auxilio familia\n")
+		}senao{
+		    escreva("O funcionario tem direito ao auxilio familia\n")
+		}
+		escreva("Insira o tempo de funcionário na empresa: ")
+		leia(anos)
+		se(anos > 5){
+		    escreva("Funcionário com direito ao abono salarial\n")
+		}senao{
+		    escreva("Funcionario sem direito ao abono salarial\n")
+		}
+		escreva("Insira o salario do funcionario: ")
+		leia(salario)
+		se(salario > 4300){
+		    escreva("Funcionario com direito ao seguro de vida e saude\n")
+		}senao{
+		    escreva("Funcionario sem direito ao seguro de vida e saude\n")
+		}
+	}
+}

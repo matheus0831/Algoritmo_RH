@@ -1,0 +1,23 @@
+-> Algoritmo RH - Matheus Santos de Sousa
+
+Inicio
+    1. Mostre uma mensagem solicitando para o funcionário digitar seu nome.
+    2. Leia o nome do funcionário.
+    3. Mostre uma mensagem solicitando para o funcionário inserir sua idade.
+    4. Leia a idade.
+    5. Se o funcionário tiver mais de 60 anos envie uma mensagem mostrando o plano de aposentadoria.
+    6. Se o funcionário tiver menos de 60 anos envie uma mensagem dizendo que ele não tem plano de aposentadoria.
+    7. Mostre uma mensagem para o funcionário digitar seu estado cívil.
+    8. Leio seu estado cívil.
+    9. Mostre uma mensagem solicitando que o funcionário informe as quantidade de filhos.
+    10. Se o funcionário nao tiver filhos mandar uma mensagem dizendo que ele não tem direito ao auxilio familia.
+    11. Se o funcionário tiver filhos mandar uma mensagem dizendo que ele tem direito ao auxilio familia.
+    12. Mostre uma mensagem dizendo para o funcionário inserir seu tempo de empresa.
+    13. Leia o tempo de empresa.
+    14. Se o funcionário tiver um tempo de mais de 5 anos de empresas mandar uma mensagem dizendo que ele tem direito ao abono salarial.
+    15. Se o funcionário não tiver um tempo de mais de 5 anos de empresas mandar uma mensagem dizendo que ele não tem direito ao abono salarial.
+    16. Mostre uma mensagem dizendo para o funcionário inserir seu salario.
+    17. Leia o salario.
+    18. Se o salario for maior que 4300 mandar uma mensagem dizendo que o funcionário tem direito ao seguro de vida e seguro de saude.
+    19. Se o salario for menor que 4300 mandar uma mensagem dizendo que o funcionário nao tem direito ao seguro de vida e seguro de saude.
+Fim  
